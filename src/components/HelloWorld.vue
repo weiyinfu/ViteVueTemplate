@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import {Home as IconHome} from "@icon-park/vue-next";
 
 defineProps({
   msg: String
@@ -10,6 +11,7 @@ const count = ref(0)
 
 <template>
   <div class="Hello">
+    <icon-home :size="40"></icon-home>
     <h1>{{ msg }}</h1>
 
     <p>
@@ -34,6 +36,7 @@ const count = ref(0)
     </p>
   </div>
 </template>
+
 
 <style>
 a {

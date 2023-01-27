@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@icon-park/vue-next": "^1.4.2",
     "element-plus": "^2.2.9",
     "element-ui": "^2.15.9",
     "github-markdown-css": "^5.1.0",
