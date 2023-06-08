@@ -34,3 +34,10 @@ yarn-error.log
 .pytest_cach
 *.iml
 __pycache__/
+.ipynb_checkpoints/
+pnpm-lock.yaml
+.pytest_cache
+cmake-build-debug
+pnpm-lock.json
+target/
+web-ext-artifacts
